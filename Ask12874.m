@@ -18,7 +18,6 @@ function mat = Ask12874(n)
   disp("The randomly generated matrix is: ");
   disp(tempMat);
   disp("\n");
-  %disp(valueToDisplay);
   if (~(mod(counter,2)==0))
     display("The Inverse will be displayed!\n");
     tempMat = inv(tempMat);
