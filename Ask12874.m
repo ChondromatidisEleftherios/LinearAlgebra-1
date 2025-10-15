@@ -19,10 +19,10 @@ function mat = Ask12874(n)
   disp(tempMat);
   disp("\n");
   if (~(mod(counter,2)==0))
-    display("The Inverse will be displayed!\n");
+    disp("The Inverse will be displayed!\n");
     tempMat = inv(tempMat);
    else
-    display("The Transpose will be displayed!\n");
+    disp("The Transpose will be displayed!\n");
     tempMat = transpose(tempMat);
   endif
   mat = tempMat;
