@@ -15,7 +15,7 @@ function mat = Ask12874(n)
   disp("Counter: ");
   disp(counter);
   disp("\n");
-  disp('The randomly generated matrix is: ');
+  disp("The randomly generated matrix is: ");
   disp(tempMat);
   disp("\n");
   %disp(valueToDisplay);
