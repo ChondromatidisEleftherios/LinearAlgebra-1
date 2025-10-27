@@ -20,12 +20,14 @@ function res = Ask42874()
     endfor
     disp("Adjacency Vector: ");
     disp(adjVector);
+    
     %Erotima Gamma1
     node1 = adjVector{1};
     node5 = adjVector{5};
     innerProd = node1 * transpose(node5);
     disp("Inner Product of Node 1 Connections and Node 5 Connections: ");
     disp(innerProd);
+    
     %Erotima Gamma2
     node3 = adjVector{3};
     node8 = adjVector{8};
