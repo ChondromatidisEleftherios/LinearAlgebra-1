@@ -1,7 +1,8 @@
 function mat = Ask12874(n)
   counter = 0;
+  n = abs(int32(n));
   if (n < 6)
-    mat = "The Matrix Dimensions are less than 5x5!!!";
+    mat = "The Matrix Dimensions are less than 6x6!!!"
   else
     disp("\nValid Dimensions!\n");
     for row=1:1:n
@@ -19,12 +20,18 @@ function mat = Ask12874(n)
   disp(tempMat);
   disp("\n");
   if (~(mod(counter,2)==0))
+    if (~(det(tempMat)==0)) %Elegxw an yparxei antistrofos elegxontas thn orizouza na MHN einai 0
     disp("The Inverse will be displayed!\n");
     tempMat = inv(tempMat);
+  else
+    disp("Determinant is 0, which means that the Matrix cannot be inversed");
+    endif
    else
     disp("The Transpose will be displayed!\n");
     tempMat = transpose(tempMat);
   endif
-  mat = tempMat;
+  mat = tempMat
   endif
-  end
+end
+
+%Chondromatidis Eleftherios 2874
