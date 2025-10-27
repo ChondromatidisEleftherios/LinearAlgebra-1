@@ -1,5 +1,5 @@
 %B TROPOS
-function res = Ask22874BTROPOS(n)
+function res = Ask32874B(n)
  %Erwtimata A kai B
  for row=1:1:n
    for col=1:1:n
