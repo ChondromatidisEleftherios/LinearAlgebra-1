@@ -1,6 +1,6 @@
 function mat = Ask12874(n)
-  counter = 0;
   n = abs(int32(n));
+  counter = 0;
   if (n < 6)
     mat = "The Matrix Dimensions are less than 6x6!!!"
   else

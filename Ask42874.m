@@ -9,6 +9,7 @@ function res = Ask42874()
             0, 0, 0, 0, 8, 0, 2, 0, 6;
             0, 0, 0, 0, 3, 3, 0, 6, 0];
 
+  %ErotimaB
   for row=1:1:9
     tempVector=[]; %Adeiazw to dianysma
     for col=1:1:9
@@ -20,14 +21,14 @@ function res = Ask42874()
     endfor
     disp("Adjacency Vector: ");
     disp(adjVector);
-    
+
     %Erotima Gamma1
     node1 = adjVector{1};
     node5 = adjVector{5};
     innerProd = node1 * transpose(node5);
     disp("Inner Product of Node 1 Connections and Node 5 Connections: ");
     disp(innerProd);
-    
+
     %Erotima Gamma2
     node3 = adjVector{3};
     node8 = adjVector{8};

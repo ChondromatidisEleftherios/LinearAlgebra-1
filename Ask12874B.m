@@ -1,6 +1,6 @@
 function mat = Ask12874B(n)
     n = abs(int32(n));
-if (n < 6)
+  if (n < 6)
     mat = "The Matrix Dimensions are less than 6x6!!!";
   else
     disp("\nValid Dimensions!\n");
